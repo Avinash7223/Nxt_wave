@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="https://cdn.pixabay.com/photo/2018/03/04/08/58/flower-3197493_1280.png" class="image-icon" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link active" id="navItem1" href="#" onclick="display('section1')">
+                        Home
+                        <span class="sr-only">(current)</span>
+
+                    </a>
+                    <a class="nav-link" href="#" onclick="display('section2')">Product</a>
+                    <a class="nav-link" href="#" id="navItem4">Delivery & Payment</a>
+                    <a class="nav-link" href="#" id="navItem3">About Us</a>
+                    <a class="nav-link" href="#" id="navItem3">Help</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div id="section1">
+        <div class="h-center d-flex flex-column justify-content-center">
+            <div class="container">
+                <div class="row">
+                    <div class=" shadow col-12 col-md-7 card">
+                        <h1 class="main-heading"> Flowers Bouquet</h1>
+                        <p class="paragraph">Gardens and flowers have a way of bringing people together, drawing them from their homes</p>
+                        <div style="text-align:center">
+                            <button class="home-button" onclick="display('section2')">Get started</button>
+                        </div>
+                    </div>
+                    <div class="shadow col-md-5 d-md-block  d-none ">
+                        <img src="https://www.fnp.com/images/pr/l/v20201028190158/delicate-love-6-pink-roses-bunch_1.jpg" class="homepage-side-image" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="section2">
+        <div class="favourite-flowers-bg-container">
+            <h1 class="favourite-flowers-heading">Favourite Flowers</h1>
+            <div class="favourite-flower-card-container d-flex flex-row">
+                <div>
+                    <h1 class="favourite-flower-card-heading">Roses</h1>
+                    <p class="favourite-flower-card-description">
+                        The best thing about using this flower in making bouquets is that the
+                        different colors of roses behold different meanings which make expressing feelings easer.
+
+                    </p>
+                </div>
+                <img src="https://5.imimg.com/data5/WT/RT/YX/SELLER-58405914/red-rose-flower-500x500.jpg" class="favourite-flower-card-image" />
+            </div>
+            <div class="favourite-flower-card-container d-flex flex-row">
+                <div>
+                    <h1 class="favourite-flower-card-heading">Peony</h1>
+                    <p class="favourite-flower-card-description">
+                        The different shades of peonies are used in flower shops to create attractive bouquets
+                        to make you express your heartfelt feelings in a unique way.
+
+                    </p>
+                </div>
+                <img src="https://m.media-amazon.com/images/I/71AxLN5Bo5L.jpg" class="favourite-flower-card-image" style="text-align: center;" />
+            </div>
+            <div class="favourite-flower-card-container d-flex flex-row">
+                <div>
+                    <h1 class="favourite-flower-card-heading">Gerbera</h1>
+                    <p class="favourite-flower-card-description">
+                        Gerbera is a flower that is available in different colours. The different
+                        varieties of Gerberas carry different meanings, such as innocence, purity, cheerfulness, etc.
+                    </p>
+                </div>
+                <img src="https://cdn.igp.com/f_auto,q_auto,t_pnopt12prodlp/products/p-basket-of-assorted-roses-gerberas-112356-m.jpg" class="favourite-flower-card-image" />
+            </div>
+            <div class="favourite-flower-card-container d-flex flex-row">
+                <div>
+                    <h1 class="favourite-flower-card-heading">Carnation</h1>
+                    <p class="favourite-flower-card-description">
+                        Carnation flowers are also commonly preferred by florists to create a bouquet.
+                        These special flowers, which behold the emotions of love,
+                        affection, and gratitude are good to bind and wonderstruck someone you love.
+                    </p>
+                </div>
+                <img src="https://www.fnp.com/images/pr/l/v20190819155302/pretty-pink-carnations-bouquet_1.jpg" class="favourite-flower-card-image" />
+            </div>
+            <div class="favourite-flower-card-container d-flex flex-row">
+                <div>
+                    <h1 class="favourite-flower-card-heading">Lily</h1>
+                    <p class="favourite-flower-card-description">
+                        Calla lilies happen to be the most exotic one of the whole lot. Needless to say, lilies are one of the most
+                        commonly desired flowers in the world.
+                        If you want to show the passion you can go with a bouquet of orange lilies
+                    </p>
+                </div>
+                <img src="https://www.fnp.com/images/pr/l/v20191205154744/passionate-oriental-pink-lilies_1.jpg" class="favourite-flower-card-image" />
+            </div>
+            <button class="btn btn-dark" onclick="display('section1')"> back </button>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+.image-icon {
+    height: 50px;
+    width: 50px;
+}
+
+.h-center {
+    background-image: url("https://t3.gstatic.com/licensed-image?q=tbn:ANd9GcS4WH3Cpe1X75X4LhbHdyJo3vPEs0ufiHQhHjkqEnMjbPqViSEVI-nqF0NpeLscSR-7");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+
+}
+
+.card {
+    background-image: url("https://cdn.pixabay.com/photo/2015/04/19/08/33/flower-729512_640.jpg");
+    background-size: cover;
+    padding: 20px;
+    font-family: "robot";
+    text-align: center;
+
+}
+
+.main-heading {
+    color: white;
+    text-shadow: -2px 2px 0 #000;
+}
+
+.paragraph {
+    color: #b0fc38;
+    font-style: italic;
+    text-shadow: -1px 1px 0 #000;
+}
+
+.home-button {
+    color: white;
+    background-color: #990f02;
+    padding: 10px;
+    height: 50px;
+    width: 95px;
+    border-color: lightblue;
+    border-width: 2px;
+    border-radius: 8px;
+
+}
+
+.homepage-side-image {
+    height: 100%;
+    width: 100%;
+}
+
+.favourite-flowers-bg-container {
+    background-image: url("https://img.freepik.com/free-photo/beautiful-high-angle-shot-pink-marguerite-daisies-garden-sunlight_181624-27379.jpg");
+    height: 100%;
+    background-size: cover;
+    padding: 24px;
+}
+
+.favourite-flowers-heading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.favourite-flower-card-container {
+    background-color: white;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 15px;
+}
+
+.favourite-flower-card-heading {
+    color: #0f0e46;
+    font-family: "Roboto";
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.favourite-flower-card-description {
+    color: #6c6b70;
+    font-family: "Roboto";
+    font-size: 15px;
+}
+
+.favourite-flower-card-image {
+    width: 120px;
+    height: 100%;
+    padding-left: 30px;
+}
+
+.favourite-flower-card-text-container {
+    margin-right: 15px;
+}
